@@ -1,0 +1,105 @@
+section{
+    .talles {
+        display: grid;
+        justify-content: space-evenly;
+        img {
+            margin-bottom: 20px;
+            width: 250px;
+            transition: 500ms;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    .allmenu, .carousel-item {
+            color: $dark-color;
+            text-align: center;
+        }
+    .banner {
+        img {
+            margin: 15px 0 0 0;
+            width: 100%;
+        }
+        .parrafo {
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0 -25px 18px -14px inset, rgba(0, 0, 0, 0.25) 0 1px 2px, rgba(0, 0, 0, 0.25) 0 2px 4px, rgba(0, 0, 0, 0.25) 0 4px 8px, rgba(0, 0, 0, 0.25) 0 8px 16px, rgba(0, 0, 0, 0.25) 0 16px 32px;
+            background-color: #a2d2ff;
+            margin: 50px 5px 100px 5px;
+            p {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin: 10px;
+                color: $dark-color;
+            }
+        }
+    }
+    .completarcampo {
+        @include just-flex;
+    }
+    .catalogo {
+        display: grid;
+        margin-bottom: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        width: 200px;
+        margin-left: 18.5%;
+        gap: 20px;
+        img {
+            display: grid;
+            width: 100%;
+            border: solid;
+            height: 200px;
+        }
+    }
+    .contactbox {
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0 -25px 18px -14px inset, rgba(0, 0, 0, 0.25) 0 1px 2px, rgba(0, 0, 0, 0.25) 0 2px 4px, rgba(0, 0, 0, 0.25) 0 4px 8px, rgba(0, 0, 0, 0.25) 0 8px 16px, rgba(0, 0, 0, 0.25) 0 16px 32px;
+        align-items: center;
+        text-align: center;
+        width: 250px;
+        height: 500px;
+        background-color: #a2d2ff;
+        @include just-flex;
+        margin: 50px 10% 100px 10%;
+        form {
+            label {
+                color: $dark-color;
+                font-family: Arial, Helvetica, sans-serif;
+                justify-content: center;
+                display: block;
+            }
+            input {
+                border: solid;
+                justify-content: center;
+                display: block;
+                border-color: #8d99ae;
+                border-radius: 5px;
+            }
+            img {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                width: 30px;
+            }
+            .nombrelogo {
+                transform: rotateY(180deg);
+            }
+            .button-28 {
+                margin-top: 20px;
+                border: 2px solid #1A1A1A;
+                border-radius: 15px;
+                color: #3B3B3B;
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 600;
+                outline: none;
+                padding: 5px;
+                text-align: center;
+                text-decoration: none;
+                transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+                width: 100%;
+                will-change: transform;
+            }
+        }
+    }
+}

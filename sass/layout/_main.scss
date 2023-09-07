@@ -1,0 +1,20 @@
+main {
+    h1 {
+        background-color: #ffafcc;
+        color: $dark-color;
+        display: flex;
+        margin-bottom: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        justify-content: center;
+    }
+    .carousel-item {
+        transition: 500ms;
+    }
+    .busqueda {
+        display: flex;
+        height: 30px;
+        margin: 10px 0 50px 0;
+        justify-content: center;
+    }
+}
