@@ -1,13 +1,4 @@
 @charset "UTF-8";
-@media screen and (min-width: 1024px) {
-  main .busqueda {
-    display: grid;
-  }
-}
-header .logo {
-  width: 100px;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,6 +7,10 @@ header .logo {
 
 body {
   background-color: #bde0fe;
+}
+
+header .logo {
+  width: 100px;
 }
 
 main h1 {
@@ -146,6 +141,12 @@ footer, .footer-original {
   padding: 10px;
   margin-top: auto; /* Empuja el footer hacia abajo */
   /* Ajusta el estilo del footer según tus preferencias */
+}
+
+@media screen and (min-width: 1024px) {
+  main .busqueda {
+    display: grid;
+  }
 }
 
 /*# sourceMappingURL=styiles.css.map */

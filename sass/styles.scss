@@ -1,15 +1,12 @@
-@import '../sass/utils/mediaqueries';
-@import '../sass/variables/variables';
-//mixin
-@import '../sass/utils/mixin';
-//fin
-//Inicio layout
-@import '../sass/layout/header';
-@import '../sass/globals/global';
-//fin
-@import '../sass/layout/main';
-@import '../sass/layout/section';
-@import '../sass/layout/form';
-@import '../sass/layout/footer';
-//continuación layout
-//fin
+//Reset
+@import './variables/variables';
+@import './utils/mixin';
+@import './globals/global';
+
+@import './layout/header';
+@import './layout/main';
+@import './layout/section';
+@import './layout/form';
+@import './layout/footer';
+
+@import './utils/mediaqueries';
